@@ -1,4 +1,4 @@
-            var d=document;
+                      var d=document;
             var ls=localStorage;
             var js=JSON;
            //animacion de la barra de menu
@@ -546,62 +546,7 @@ if (iSuper!==""){
         console.log("registrado");
         }
     }  
-//tengo que buscar una condicion que me lea el Ls y me indique que ya tengo el supermercado. 
- /* else{
-    ls.setItem("dataSup","")
-    console.log("creo el primer element en el ls")
-    var newSuper=iSuper;
-    hipers.push(newSuper);
-        var num=0;
-        let cuadro = document.querySelector(".cuadroo");
-        for(i=0;i<1;i++){
-        let img = document.createElement("img");
-        let botondelet = document.createElement("button");
-        let caja2 = document.createElement("div");
-        let caja3=document.createElement("div");
-        caja2.setAttribute("class","caja2");
-        caja3.setAttribute("id",hipers[0])
-        caja3.setAttribute("class","caja3");
-        botondelet.setAttribute("class","borrarmercado" );
-        botondelet.textContent="x";
-        img.setAttribute("src","tienda.png");
-        let opcion = document.createElement("option");
-        let caja = document.createElement("div");
-        let p = document.createElement("p");
-          
-        caja.setAttribute("class","listaDeSupermercados");
-        p.innerHTML = document.querySelector("#input-configuracionDeSupermercado").value;
 
-        caja2.appendChild(img);
-        caja2.appendChild(p);
-        caja.appendChild(caja2);
-        caja.appendChild(botondelet);
-        cuadro.appendChild(caja);
-        cuadro.appendChild(caja3);
-        ///////////////////////////////////////////////////////////////////////////////////////
-        let momet=hipers[0]
-        console.log(momet);
-        var divs=document.getElementsById(moem);
-       
-      console.log(divs+" agregando supermercado");    
-        for (var i = 0; i < totalProduc.length; i++) {
-             if (totalProduc[i].lugar.toLowerCase().includes(iSuper) == true){
-                 console.log(iSuper);
-                  // let ul = document.createElement("ul");
-                  // let li = document.createElement("li");
-                  // let imagen = document.createElement("img")
-                  // let pm1 = document.createElement("p");
-                  // let pm2 = document.createElement("h3";
-                  // let pm3 =document.createElement("h4");
-                  // let euro = document.createElement("h5");
-                  // let boton = document.createElement("button")  
-                }
-             }   
-        opcion.textContent = document.querySelector("#input-configuracionDeSupermercado").value;
-        mercadosNombre.appendChild(opcion);
-        ls.setItem("dataSup",js.stringify(hipers));
-    }
-  }*/
 }else{
     alert("Introducir Un SuperMercado o Tienda");
   }
@@ -1033,35 +978,4 @@ document.querySelector("#button_Register").addEventListener("click",frecuentes);
          } 
 
 
-         /////////////////////////////// que use el local store para pintar los ultimos productos\\\\\\\\\\\\\\\\\\\\\\\
-         
-// function load_list(){
-//     if (ls.getItem("dataForm")!==null) {
-//       console.log("entro localStorage")
-//       lis=js.parse(ls.getItem("dataForm"));
-//       for (let i = 0; i < 1; i++) {
-//          Object.values(lis[i]).forEach(producto => {
-//                           templetcar.querySelector("#e").value = producto.id
-//                           templetcar.querySelectorAll("td")[0].textContent = producto.nombre
-//                           templetcar.querySelectorAll("td")[1].textContent = producto.cantidad
-//                           templetcar.querySelector("#me").textContent = producto.lugar
-//                           templetcar.querySelector(".btn-info").dataset.id = producto.id
-//                           templetcar.querySelector(".btn-danger").dataset.id = producto.id
-//                           templetcar.querySelector("#span").value = producto.cantidad * producto.precio;
-//                           const clone = templetcar.cloneNode(true)
-//                           fragment.appendChild(clone)
-//                     })
-//        const ncantidad = Object.values(lis[i]).reduce((acc,{cantidad}) => acc + cantidad,0)
-//                  const nprecio = Object.values(lis[i]).reduce((acc,{cantidad,precio}) => acc + cantidad * precio,0)
-//                   templetfooter.querySelectorAll("td")[0].textContent = ncantidad
-//                   templetfooter.querySelector("span").textContent = nprecio
-//                   const clone = templetfooter.cloneNode(true)
-//                   fragment.appendChild(clone)          
-                    
-//       } 
-//       items.appendChild(fragment);
-//       footer.appendChild(fragment)   
-//     }
-
-// }
-// load_list();
+    
