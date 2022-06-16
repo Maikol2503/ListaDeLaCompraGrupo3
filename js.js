@@ -940,7 +940,7 @@ document.querySelector("#button_Register").addEventListener("click",frecuentes);
                    const producto = {
                        id: objeto.querySelector(".botonAnadirA-LaLista").dataset.id,
                        nombre : objeto.querySelector("p").textContent,
-                       precio: objeto.querySelector("h6").textContent,
+                       precio: objeto.querySelector("h3").textContent,
                        lugar : objeto.querySelector("h4").textContent,
                        cantidad: 1
                     };
