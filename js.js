@@ -707,7 +707,7 @@ load_hipers(hipers);
                     boton.classList.add("button_agregar")
                     imagen.setAttribute("src",totalProduc[i].thumbnailUrl)
                     pm1.textContent = totalProduc[i].nombre
-                    pm2.textContent = totalProduc.precio
+                    pm2.textContent = totalProduc[i].precio
                     pm3.textContent = totalProduc[i].lugar
                     euro.textContent = "$"
                     boton.textContent = "Añadir"
