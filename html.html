@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prototipe.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+        </style>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+          </style>
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+            </style>
+    <title>lista</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+            <header>
+                <!-- barra de menu animado -->
+            <div class="caja-nav">
+                <p id="nombre-logo">Shopi</p>
+                <input type="text" id="buscador">
+                <img id="logo" src="carrito2.png" alt="">
+                <!-- <input type="text" id="buscador" placeholder="Compara precios"> -->
+            </div> 
+            <div class="bars__menu">
+                <span class="line1__bars-menu"></span>
+                <span class="line2__bars-menu"></span>
+                <span class="line3__bars-menu"></span>
+            </div>
+    <!-- menu  -->
+    
+           <div class="menu-menu">
+           
+             <div class="cajamenu-configuracionDeSupermercado">
+                 <input type="text" id="input-configuracionDeSupermercado">
+                 <button id="boto-guargarSupermercado">Guardar</button>
+             </div>
+               <div id="table_superMarket" class="cuadroo">
+                  
+             </div>
+           
+                    
+             </div>
+            
+        
+            </header>
+
+            <!-- //////////////////////////////////////////////////////////////////////////////// -->
+            <table class="table tabla1">
+              <thead>
+               <tr id="tr1">
+                  <th scope="col">Establecimiento</th>
+                  <th scope="col">Producto</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Acción</th>
+                  <th scope="col">Total</th>
+                                  </tr> 
+              </thead>
+              <tbody id="items"></tbody>
+              <tfoot>
+                <tr id="footer">
+                  <th class="alerta" scope="row" colspan="5"><p class="pp">Añada Supermercados</p><img class="flechaInicio" src="5.png" alt=""></th>
+                
+                </tr>
+              </tfoot>
+            </table>
+            <div class="row" id="cards"></div>
+            <template id="template-footer">
+              <th class="th3" scope="row" colspan="2"></th>
+              <td id="td-footer">10</td>
+              <td>
+                  <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                      Vaciar
+                  </button>
+              </td>
+              <td class="font-weight-bold" id="td-footer2">$<span>5000</span></td>
+          </template>
+          
+          <template id="template-carrito">
+            <tr id="tr2">
+
+              <th id="e" >
+                <select name="" id="supermercados">
+                   <option id="me" value=""></option>
+                </select>
+              </th>
+
+
+              <td id="producto">Café</td>
+              <td>1</td>
+              <td>
+                  <button class="btn btn-info">
+                      +
+                  </button>
+                  <button class="btn-menos btn-danger">
+                      -
+                  </button>
+              </td>
+              <td>$<input id="span" type="text"></td>
+            </tr>
+          </template>
+
+          <div class="caja-c">
+              <div class="c">
+                
+              </div> 
+           </div>
+
+            <section class="primeraSeccion">
+                <!-- añadi un Id para poner un display -->
+                    <div id="cuadro_lista" class="container">
+                          <div class="cuadro-nombreDeLalista">
+                              <img id="flecha1" src="x.png" alt="">
+                                <input type="text" placeholder="Nombre del nuevo producto" id="nuevoproducto">
+                                  <form class="form-register">
+                                            <!-- <h4>Registrar Producto</h4> -->
+                                    <input type="text" name="nombre" class="formulario" id="productoo" placeholder="Ingrese Producto">
+                                            <!-- <input type="number" name="precio" class="formulario" id="precio" placeholder="Precio $" min="1"> -->
+                                    <select  id="mercado">
+                                        
+                                    </select>
+                                    <button type="button" class="button" id="button_Register" value="Añadir">Añadir</button>
+                                  </form>
+                                  <div class="frecuentes">
+                                    <ul id="resultadofrecuentes" class="fr"></ul>
+                                  </div>
+                                <div class="cuadro-botonDeGuardar-lista">
+                                    <button id="botonDeGuardar-lista" onclick="lista()"></button>
+                                 </div>
+                             </div>
+                            <div class="botonFlotante">
+                            <p class="botonFlotanteP"><img width="50px" src="c.png" alt=""></p>
+                       </div>   
+                    </div>
+            </section>
+            <div class="segundaSeccion">    
+         </div>
+    <script src="js.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
