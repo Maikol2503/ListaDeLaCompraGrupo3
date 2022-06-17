@@ -236,8 +236,11 @@ color: #ffffff;
    /* border: 1px solid red; */
    margin: 10px 10px 0px 10px;
    max-width: 1200px;
-
+   
 }
+/* #table_superMarket{
+   display: flex;
+} */
 .caja2 p{
    font-size: 35px;
    font-weight: 600;
@@ -252,7 +255,14 @@ color: #ffffff;
   margin-top: 0;
   margin-bottom: 5px;
   background-color: #c6d8d8;
+  /* display: none; */
 }
+
+/* .caja3visible{
+  display: inline-block;
+  display: flex;
+  
+} */
 .caja3 li img{
   width: 70px;
   height: 100px;
@@ -277,9 +287,9 @@ color: #ffffff;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.button_agregar{
+/* .button_agregar{
 
-}
+} */
 .listaDeSupermercados{
    width: 100%;
    padding: 10px 10px;
@@ -595,6 +605,21 @@ color: #ffffff;
    /* border: 1px solid red; */
    width: 100%;
    flex-direction: column;
+  
+}
+.frecuentes p{
+    width: 25%;
+    text-transform: capitalize;
+}
+.fr h4{
+   text-transform: capitalize;
+   width: 25%;
+}
+.prec{
+   width: 50px;
+   padding-left: 5px;
+   border-radius: 5px;
+  border: 1px solid rgb(202, 202, 202);
 }
 #resultadofrecuentes{
    width: 100%;
@@ -612,7 +637,16 @@ color: #ffffff;
    margin: 0%;
    width: 50px;
 }
-
+.frecuentes .botonAnadirA-LaLista2{
+   margin: 0%;
+   width: 70px;
+   background-color: #0056a7;
+   color: white;
+   padding: 5px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .filtro{
    display:none
 }
@@ -832,6 +866,18 @@ tr{
  
 
 /* FORMATO MOVIL */
+
+
+.frecuentes p{
+   width: 25%;
+   
+}
+
+
+
+
+
+
 
 @media (max-width: 700px){   
 
